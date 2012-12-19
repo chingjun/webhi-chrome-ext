@@ -56,7 +56,7 @@ function parse_message(message) {
         if (curContent.type == 'url') {
             var link = format(parseUrl(curContent.ref));
             var text = format(curContent.ref);
-            msgStr += '<a href="'+link+'" target="_blank>'+text+'</a>';
+            msgStr += '<a href="'+link+'" target="_blank">'+text+'</a>';
         }
         if (curContent.type == 'reply') {
             if (curContent.t == 1) { // huifu
