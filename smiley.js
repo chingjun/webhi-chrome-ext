@@ -1,0 +1,839 @@
+var smiley = [{
+    f: 'default',
+    n: "\u5fae\u7b11",
+    s: ":)",
+    m: "1e376a99d4059562772aad9ac065fd71"
+}, {
+    f: 'default',
+    n: "\u5927\u7b11",
+    s: ":D",
+    m: "c5ce7689438e5ee92c5942d4885fc198"
+}, {
+    f: 'default',
+    n: "\u5077\u7b11",
+    s: "(tx)",
+    m: "d2ff68289e44c32d61f17e9cfb8f781a"
+}, {
+    f: 'default',
+    n: "\u61a8\u7b11",
+    s: ":o",
+    m: "564396330c9e704c27533dd0a9f38d56"
+}, {
+    f: 'default',
+    n: "\u5f97\u610f",
+    s: "(dy)",
+    m: "33991a718d98b7bde46d1656acd1d84f"
+}, {
+    f: 'default',
+    n: "\u53ef\u7231",
+    s: "(ka)",
+    m: "1eac4820cb2162ad0ea9050f730701ea"
+}, {
+    f: 'default',
+    n: "\u5bb3\u7f9e",
+    s: "(hx)",
+    m: "afb7b910b894d8638a5f5f60d66080bb"
+}, {
+    f: 'default',
+    n: "\u4e56",
+    s: "(oo)",
+    m: "6eeeea78151b0d992342b5d974ea9748"
+}, {
+    f: 'default',
+    n: "\u6dd8\u6c14",
+    s: "(tq)",
+    m: "3567d74d273570047d563a52487b458d"
+}, {
+    f: 'default',
+    n: "\u8c03\u76ae",
+    s: ":p",
+    m: "17a002956048d2cc3e7136a60995f4c5"
+}, {
+    f: 'default',
+    n: "\u6d41\u6cea",
+    s: "(ll)",
+    m: "6d177c2e8caa44b47950afd1c2d94ea1"
+}, {
+    f: 'default',
+    n: "\u5927\u54ed",
+    s: ":'(",
+    m: "f2468ad19982b6109525f86e60da0a40"
+} // bug in IE!!
+, {
+    f: 'default',
+    n: "\u6487\u5634",
+    s: "(pz)",
+    m: "f4075f32764665658fe69d475536685f"
+}, {
+    f: 'default',
+    n: "\u95ed\u5634",
+    s: ":-#",
+    m: "97aac5ef30ca5c313f5055d3303a901a"
+}, {
+    f: 'default',
+    n: "\u5618",
+    s: "(xu)",
+    m: "ea12132c217e29cc32a70ef2123baa55"
+}, {
+    f: 'default',
+    n: "\u9119\u89c6",
+    s: "(bs)",
+    m: "0fd150d82ae7f2d174c9601f9ee09247"
+}, {
+    f: 'default',
+    n: "\u50b2\u6162",
+    s: "(am)",
+    m: "8484e2fcd13826ff6d311fa23f6133f1"
+}, {
+    f: 'default',
+    n: "\u767d\u773c",
+    s: "(fc)",
+    m: "46e7c6b53203f314943f5af66f6b9daf"
+}, {
+    f: 'default',
+    n: "\u56f0",
+    s: "|-)",
+    m: "fd2bdb138346f328795d068df107ec90"
+}, {
+    f: 'default',
+    n: "\u7761",
+    s: "(zz)",
+    m: "d6c03a77dc812595b2f41fdde34d05a6"
+}, {
+    f: 'default',
+    n: "\u6c57",
+    s: "(lh)",
+    m: "fd2f51cd66989306299d8ad075abbc89"
+}, {
+    f: 'default',
+    n: "\u5c34\u5c2c",
+    s: ":$",
+    m: "b143058415f04e4f21302736326fb37c"
+}, {
+    f: 'default',
+    n: "\u60ca\u8bb6",
+    s: ":-o",
+    m: "c6fbb9628da63dc12c9a1fef25dea934"
+}, {
+    f: 'default',
+    n: "\u60ca\u6050",
+    s: "(jk)",
+    m: "4a19620c98f2d809ea46900a0b552d7c"
+}, {
+    f: 'default',
+    n: "\u7591\u95ee",
+    s: "(?)",
+    m: "7e9cbda5e0b325f01d478f8e4adf69b2"
+}, {
+    f: 'default',
+    n: "\u6655",
+    s: ":s",
+    m: "18c3ccd14d992d8e5aa30acfe670d42f"
+}, {
+    f: 'default',
+    n: "\u96be\u8fc7",
+    s: ":(",
+    m: "f2e7df81f1e48584a82c82f99d266b7c"
+}, {
+    f: 'default',
+    n: "\u59d4\u5c48",
+    s: "(wq)",
+    m: "3ced67ed7484ec180470b6cf8f0e44b3"
+}, {
+    f: 'default',
+    n: "\u8272",
+    s: "(se)",
+    m: "5c0aacf4ce01a07aa72ced20edfb1fb0"
+}, {
+    f: 'default',
+    n: "\u6293\u72c2",
+    s: "(zk)",
+    m: "fd78f2b8f16086a940e90f370b2bb0d4"
+}, {
+    f: 'default',
+    n: "\u6124\u6012",
+    s: ":@",
+    m: "c6d1d4982260a4bad13aab943f7799f0"
+}, {
+    f: 'default',
+    n: "\u5410",
+    s: "+o(",
+    m: "658d87d64e128385f28a59c15aa8cb91"
+}, {
+    f: 'default',
+    n: "\u8870",
+    s: "(sh)",
+    m: "ae2b37bc2c8186a5dad63a583ad278cb"
+}, {
+    f: 'default',
+    n: "\u518d\u89c1",
+    s: "(zj)",
+    m: "b6db7f3a9e8a9c864046eb0eaa15942d"
+}, {
+    f: 'default',
+    n: "Hi",
+    s: "(hi)",
+    m: "33037bedc05c33f5998f875c608d4ba1"
+}, {
+    f: 'default',
+    n: "\u4fbf\u4fbf",
+    s: "(bb)",
+    m: "490183579bb95ab6eee1d695cdaef213"
+}, {
+    f: 'default',
+    n: "\u86cb\u7cd5",
+    s: "(^)",
+    m: "47198bf11c75a03e6249a1ccc1064bce"
+}, {
+    f: 'default',
+    n: "\u5403\u996d",
+    s: "(cf)",
+    m: "e3aac3a4e1e36a02959f62d9bbcab7ac"
+}, {
+    f: 'default',
+    n: "\u732a\u5934",
+    s: "(zt)",
+    m: "ede07ac7f02fbc613381069a77ff1b5c"
+}, {
+    f: 'default',
+    n: "\u5200",
+    s: "(d)",
+    m: "d32893593db6217773e102bd694db4d8"
+}, {
+    f: 'default',
+    n: "\u7231\u60c5",
+    s: "(ai)",
+    m: "7f73aeabe8ddb4bb23e06de4e6072e40"
+}, {
+    f: 'default',
+    n: "\u5fc3\u788e",
+    s: "(xs)",
+    m: "b5fbcef53bf2d695db6bd48faa326585"
+}, {
+    f: 'default',
+    n: "\u9c9c\u82b1",
+    s: "(xh)",
+    m: "5bc342dfc4b92d4c0cad3a4207a99380"
+}, {
+    f: 'default',
+    n: "\u67af\u840e",
+    s: "(kw)",
+    m: "9ef7d4c187f298a10953f5096cbe9162"
+}, {
+    f: 'default',
+    n: "\u63e1\u624b",
+    s: "(ws)",
+    m: "a21bf8c01f41b9148b81aa1b53fb3a0e"
+}, {
+    f: 'default',
+    n: "\u80dc\u5229",
+    s: "(sl)",
+    m: "f08d998e04027d92feaf0f8667bb016c"
+}, {
+    f: 'default',
+    n: "\u5927\u62c7\u6307",
+    s: "(n)",
+    m: "2f5113cfd0a33bfec485c222051db205"
+}, {
+    f: 'default',
+    n: "\u5f31",
+    s: "(r)",
+    m: "2ea09b4e887a6871e22d6e52a014179c"
+} //48 up
+, {
+    f: 'default',
+    n: "\u601d\u8003",
+    s: "(sk)",
+    m: "8c1066c3a4fc9115b46e3ae72a19e3f4"
+}, {
+    f: 'default',
+    n: "\u6572\u6253",
+    s: "(qd)",
+    m: "d237de97c3277b7749ce839db39b0649"
+}, {
+    f: 'default',
+    n: "\u5de6\u62e5\u62b1",
+    s: "({)",
+    m: "3890735fdd2f25319367532f660bbcd2"
+}, {
+    f: 'default',
+    n: "\u53f3\u62e5\u62b1",
+    s: "(})",
+    m: "28a6dcccc96ad6d3082a0ff5554bebd6"
+}, {
+    f: 'default',
+    n: "\u95ea\u4eba",
+    s: "(sr)",
+    m: "eb06e9170d5b470f124d3943f537e714"
+}, {
+    f: 'default',
+    n: "\u543b",
+    s: "(w)",
+    m: "11d117a72c9cd5ffa2110c31cb4a385b"
+}, {
+    f: 'default',
+    n: "OK",
+    s: "(ok)",
+    m: "f143718613f47bb929e7134b2457f260"
+}, {
+    f: 'default',
+    n: "\u5496\u5561",
+    s: "(kf)",
+    m: "d6bde4b624846fd08500053358e154ae"
+}, {
+    f: 'default',
+    n: "\u592a\u9633",
+    s: "(#)",
+    m: "75132ac5d361fd71a0b8acc6d99b7692"
+}, {
+    f: 'default',
+    n: "\u6708\u4eae",
+    s: "(s)",
+    m: "5bbb83756e3e652b43f9f03d638718b4"
+}, {
+    f: 'default',
+    n: "\u661f\u661f",
+    s: "(*)",
+    m: "dcb31cac1b742034e9cdc5254f309d00"
+}, {
+    f: 'default',
+    n: "\u94b1",
+    s: "(q)",
+    m: "eeb68b5c092155df924e69b2a1de21f9"
+}, {
+    f: 'bear',
+    n: "\u5fae\u7b11 ",
+    s: "(wx)",
+    m: "36c7fbde6243e1ab056d26ed04da4626"
+}, {
+    f: 'bear',
+    n: "\u5e05\u54e5",
+    s: "(sg)",
+    m: "8173ba953e8b2cba6a9745e798964940"
+}, {
+    f: 'bear',
+    n: "\u7f8e\u5973",
+    s: "(mm)",
+    m: "266fc64ac2949059bc4247ff36c8c72a"
+}, {
+    f: 'bear',
+    n: "\u8001\u5927",
+    s: "(ld)",
+    m: "013f44177c9661fa9e9b53a5d7ad810a"
+}, {
+    f: 'bear',
+    n: "\u54c8\u54c8\u54c8",
+    s: "(:dx)",
+    m: "ece2d90fabf36d2868d033fe941c2505"
+}, {
+    f: 'bear',
+    n: "\u5978\u7b11",
+    s: "(jx)",
+    m: "ed27bd44748988b291e3de517000a8ea"
+}, {
+    f: 'bear',
+    n: "\u50bb\u4e50",
+    s: "(ssl)",
+    m: "9c1abc04d03aef9f13672fcb7c27b5df"
+}, {
+    f: 'bear',
+    n: "\u98de\u543b ",
+    s: "(:fw)",
+    m: "82f2fac9575da046058dd47e204a2a5f"
+}, {
+    f: 'bear',
+    n: "\u5bb3\u7f9e ",
+    s: "(:hx)",
+    m: "29c4befb29a5b1d3856b2812c6426246"
+}, {
+    f: 'bear',
+    n: "\u82b1\u75f4",
+    s: "(hc)",
+    m: "d2f1967481629b751c015ddb2897aef5"
+}, {
+    f: 'bear',
+    n: "\u61a7\u61ac",
+    s: "(cj)",
+    m: "2d27536e0981cec8f6654f3f638e0cfe"
+}, {
+    f: 'bear',
+    n: "\u4f60\u725b",
+    s: "(nb)",
+    m: "07f0eab7fc6e195da290fee8bb61861a"
+}, {
+    f: 'bear',
+    n: "\u9f13\u638c",
+    s: "(gz)",
+    m: "63ceb8fc549ab868cc2eb588f24805fa"
+}, {
+    f: 'bear',
+    n: "\u53ef\u7231 ",
+    s: "(:ka)",
+    m: "f593596553738a8070b15cbe3b453a4b"
+}, {
+    f: 'bear',
+    n: "\u59d4\u5c48 ",
+    s: "(:wq)",
+    m: "6f5cf65eb4860e5b9c161e96334257a5"
+}, {
+    f: 'bear',
+    n: "\u5927\u54ed ",
+    s: "(:dk)",
+    m: "4b5649fe0d7ca648e9ef875430726629"
+}, {
+    f: 'bear',
+    n: "\u6cea\u5954 ",
+    s: "(:lb)",
+    m: "5231f00f23672f96b49e23b903f51571"
+}, {
+    f: 'bear',
+    n: "\u5bfb\u6b7b",
+    s: "(:xs)",
+    m: "ea8dd5a956ba9e59160e9a6a97fd3159"
+}, {
+    f: 'bear',
+    n: "\u60ca\u8bb6 ",
+    s: "(jy)",
+    m: "eb2defeb5905451d0d07f1ff466909aa"
+}, {
+    f: 'bear',
+    n: "\u7591\u95ee ",
+    s: "(:yw)",
+    m: "b7c86b2b58cfded752fef914143325bb"
+}, {
+    f: 'bear',
+    n: "\u9119\u89c6 ",
+    s: "(bsn)",
+    m: "9b84f79c40188db4771c2577187b154e"
+}, {
+    f: 'bear',
+    n: "\u5927\u9a82",
+    s: "(dm)",
+    m: "646ec54dda651d383db0038e925eb601"
+}, {
+    f: 'bear',
+    n: "\u72c2\u6012",
+    s: "(kn)",
+    m: "e70bf9f4757ae74b4f86471aa0dc72d5"
+}, {
+    f: 'bear',
+    n: "\u56e7",
+    s: "(j)",
+    m: "40ad40f89dce47fc7f020e86cf951750"
+}, {
+    f: 'bear',
+    n: "\u6655 ",
+    s: "(yun)",
+    m: "83128d1230675135df522efa6fdd32e7"
+}, {
+    f: 'bear',
+    n: "\u5455\u5410",
+    s: "(tu)",
+    m: "4fc9d77ddbc754ee674f0f9c50e2056f"
+}, {
+    f: 'bear',
+    n: "\u8d22\u8ff7",
+    s: "(cm)",
+    m: "97d24895c4d6033ab5d302ebbb72edb6"
+}, {
+    f: 'bear',
+    n: "\u7761\u4e86",
+    s: "(zzz)",
+    m: "31f561aa78f16cea9e1f02183312b58c"
+}, {
+    f: 'bear',
+    n: "\u601d\u8003 ",
+    s: "(xk)",
+    m: "1105a0ae3b17c52432a65833ad825739"
+}, {
+    f: 'bear',
+    n: "\u6c57 ",
+    s: "(han)",
+    m: "e5744442fa792ea055ad78137f1a1cac"
+}, {
+    f: 'bear',
+    n: "\u65e0\u8bed",
+    s: "(wy)",
+    m: "2d15778775f3c0f76bcf47abc8a375f8"
+}, {
+    f: 'bear',
+    n: "\u62dc",
+    s: "(bai)",
+    m: "fcf60dc85c60f1800d030bd89e07e3f4"
+}, {
+    f: 'bear',
+    n: "\u97a0\u8eac",
+    s: "(jg)",
+    m: "6915fe7dea48ceb50e57296782b423f7"
+}, {
+    f: 'bear',
+    n: "\u7d2f\u4e86",
+    s: "(lei)",
+    m: "5e5db52f522182d91051c607be072a37"
+}, {
+    f: 'bear',
+    n: "\u75c5\u4e86",
+    s: "(b)",
+    m: "47ad9be303e3f1ffe93876051959a787"
+}, {
+    f: 'bear',
+    n: "\u5899\u89d2",
+    s: "(qj)",
+    m: "0022cb45e57684b4e87b48783dc12183"
+}, {
+    f: 'bear',
+    n: "\u8d85\u4eba",
+    s: "(cr)",
+    m: "b26fcee08cea8022c47f75f2a092823f"
+}, {
+    f: 'bear',
+    n: "\u6233",
+    s: "(ch)",
+    m: "6fc208bfaff0d8f40bb0db9196446b12"
+}, {
+    f: 'bear',
+    n: "\u8df3\u821e",
+    s: "(tw)",
+    m: "d9513f71ad92be76312f665fcb241879"
+}, {
+    f: 'bear',
+    n: "\u9b3c\u8138",
+    s: "(gl)",
+    m: "8006125c59cb94d0f73d5404a25725ae"
+}, {
+    f: 'bear',
+    n: "\u65e0\u804a",
+    s: "(wl)",
+    m: "e23def0114dd74dca485b1c31d59f3f3"
+}, {
+    f: 'bear',
+    n: "\u649e\u5899",
+    s: "(zq)",
+    m: "e91b1ccab6f366af693fec4067cdbd7a"
+}, {
+    f: 'bear',
+    n: "\u9876",
+    s: "(sp)",
+    m: "8bf6b90924fe625318b23753915d179b"
+}, {
+    f: 'bear',
+    n: "\u96c6\u4f53\u821e",
+    s: "(jtw)",
+    m: "f0d88e469af4fefd1170c4c85d2bfb99"
+}, {
+    f: 'bear',
+    n: "\u6253\u4eba",
+    s: "(dr)",
+    m: "5ef9889599d2f0ddfd990746809d6166"
+}, {
+    f: 'bear',
+    n: "\u63e1\u624b ",
+    s: "(:ws)",
+    m: "4c753e16dd5c9dc0da21402374691735"
+}, {
+    f: 'bear',
+    n: "\u5b89\u6170",
+    s: "(aw)",
+    m: "ee8fa5bcbd36241820d14ae1b46648d2"
+}, {
+    f: 'bear',
+    n: "\u5575\u5575",
+    s: "(bo)",
+    m: "8916a811f491ddfafd61986375665cc9"
+} //48 up
+, {
+    f: 'bear',
+    n: "Hi ",
+    s: "(:hi)",
+    m: "630df8bd6950c9395b39c611809822fb"
+}, {
+    f: 'bear',
+    n: "\u996d",
+    s: "(ff)",
+    m: "82fa0db5f4ac8e95c7fa97c2f028a411"
+}, {
+    f: 'bear',
+    n: "\u86cb\u7cd5 ",
+    s: "(dg)",
+    m: "78703efec3547b13f2e6e5a3dd63286a"
+}, {
+    f: 'bear',
+    n: "\u793c\u7269",
+    s: "(lw)",
+    m: "2e95741468c5cf64bb9d51a12c374646"
+}, {
+    f: 'bear',
+    n: "\u5fc3",
+    s: "(xin)",
+    m: "a0bed224deffa67327623313cc5c5231"
+}, {
+    f: 'bear',
+    n: "\u5fc3\u788e ",
+    s: "(xsl)",
+    m: "745e57c9ea78d1c48a030b793a2539af"
+}, {
+    f: 'bear',
+    n: "\u73ab\u7470",
+    s: "(mg)",
+    m: "4afbd9e87b0e27b98d4620e457a8ac63"
+}, {
+    f: 'bear',
+    n: "\u70b8\u5f39",
+    s: "(zd)",
+    m: "5f4fdb939b838fce3f78161d4f5b5a3e"
+}, {
+    f: 'bear',
+    n: "\u62cd\u62cd",
+    s: "(pp)",
+    m: "d885a150c3d14aafeaf823fa57a09c68"
+}, {
+    f: 'bear',
+    n: "\u4eb2\u4eb2",
+    s: "(qq)",
+    m: "1aa61038900f78cb8b4f57ca6f00fa17"
+}, {
+    f: 'bear',
+    n: "\u77f3\u5934",
+    s: "(st)",
+    m: "53cdc51684cc27b688cebd3e8a4801a5"
+}, {
+    f: 'bear',
+    n: "\u526a\u5200",
+    s: "(jz)",
+    m: "8467ecac043b423891b928f654483156"
+}, {
+    f: 'bear',
+    n: "\u5e03",
+    s: "(bu)",
+    m: "7b7492097c2fbb7a4c553c254f4a5994"
+}, {
+    f: 'bear',
+    n: "\u606d\u559c\u5566",
+    s: "(gx)",
+    m: "ee79ba86cbf7c888fb05a1284617857d"
+}, {
+    f: 'youa',
+    n: "\u7537\u515c",
+    s: "(nd)",
+    m: "d923dbf00b642078c2e3783f6f79b7bc"
+}, {
+    f: 'youa',
+    n: "\u5973\u515c",
+    s: "(nvd)",
+    m: "f054e7cb63e9c3ae6dc92e4f7970b15a"
+}, {
+    f: 'youa',
+    n: "\u5f00\u5fc3",
+    s: "(kx)",
+    m: "3984744c44406f9516ac97f14f8f4a94"
+}, {
+    f: 'youa',
+    n: "\u4e56\u4e56",
+    s: "(gg)",
+    m: "97a3bc26de5e7d5c578ffcff92784234"
+}, {
+    f: 'youa',
+    n: "\u5077\u7b11\u3000",
+    s: "(:tx)",
+    m: "a75928d0fe98d17c084ac411750da03b"
+}, {
+    f: 'youa',
+    n: "\u5927\u7b11\u3000",
+    s: "(dx)",
+    m: "a2d411f7eb8472b2dc5cb5d0e6cd871d"
+}, {
+    f: 'youa',
+    n: "\u62bd\u6ce3",
+    s: "(cq)",
+    m: "eb4e6ddad686dc9a01983ade1c2959c0"
+}, {
+    f: 'youa',
+    n: "\u5927\u54ed\u3000",
+    s: "(dk)",
+    m: "1eb8aabfaa423e6fbdfa2e6faedea210"
+}, {
+    f: 'youa',
+    n: "\u65e0\u5948",
+    s: "(wn)",
+    m: "480e05a180234b2eed917659ad8bc5b9"
+}, {
+    f: 'youa',
+    n: "\u6ef4\u6c57",
+    s: "(hd)",
+    m: "e63b0f3f136ff6f48b214c19b0547a1d"
+}, {
+    f: 'youa',
+    n: "\u53f9\u6c14",
+    s: "(tqi)",
+    m: "01025799c89cb1eb67814b5ef3f102b6"
+}, {
+    f: 'youa',
+    n: "\u72c2\u6655",
+    s: "(ky)",
+    m: "24bdf1f85b7335a2bfdea21aecaa502d"
+}, {
+    f: 'youa',
+    n: "\u59d4\u5c48\u3000",
+    s: "(wqu)",
+    m: "a8a488035f25ca63530a8a979beb72e5"
+}, {
+    f: 'youa',
+    n: "\u8d85\u8d5e",
+    s: "(cz)",
+    m: "f6dffd7867799a07b36a6d5d548c8247"
+}, {
+    f: 'youa',
+    n: "\u56e7\u56e7",
+    s: "(jj)",
+    m: "da3c71a49ef9ea18e10b6201d9fb793f"
+}, {
+    f: 'youa',
+    n: "\u7591\u95ee\u3000",
+    s: "(yw)",
+    m: "5a68de543ec8c72fb3142c939e2fb2e2"
+}, {
+    f: 'youa',
+    n: "\u98de\u543b",
+    s: "(fw)",
+    m: "1693bff59ce27d5537f8c1c35bea08f6"
+}, {
+    f: 'youa',
+    n: "\u5929\u4f7f",
+    s: "(ts)",
+    m: "0228e4709bddba1e11e0df49f40b039a"
+}, {
+    f: 'youa',
+    n: "\u6492\u82b1",
+    s: "(hua)",
+    m: "e22e54f7be1e2e999c0a4b10c6c1fd36"
+}, {
+    f: 'youa',
+    n: "\u751f\u6c14",
+    s: "(sq)",
+    m: "ce0efd9b1065a9c32120f57cfce01fa7"
+}, {
+    f: 'youa',
+    n: "\u88ab\u7838",
+    s: "(bz)",
+    m: "64996975385f3239169de64f0726e351"
+}, {
+    f: 'youa',
+    n: "\u53e3\u6c34",
+    s: "(ks)",
+    m: "d4696e8fba488cf64b920900eae2474b"
+}, {
+    f: 'youa',
+    n: "\u6cea\u5954",
+    s: "(lb)",
+    m: "865e4984298507c91356f7ea93bb9c91"
+}, {
+    f: 'youa',
+    n: "\u5413\u50bb",
+    s: "(xia)",
+    m: "a95a3f61f00c3c6a2542c44e5a8c54f1"
+}, {
+    f: 'youa',
+    n: "\u5410\u820c\u5934",
+    s: "(tst)",
+    m: "4f4dd01413a96ec2982cd318f4b7f317"
+}, {
+    f: 'youa',
+    n: "\u70b9\u5934",
+    s: "(dt)",
+    m: "c66071425f7cfffa00acc9c5ae299e77"
+}, {
+    f: 'youa',
+    n: "\u968f\u610f\u5410",
+    s: "(syt)",
+    m: "f1a07cb1c44d659831dbef7e8d4fa13d"
+}, {
+    f: 'youa',
+    n: "\u65cb\u8f6c",
+    s: "(xz)",
+    m: "a9a909e49309d8430bd88bedcd213d9f"
+}, {
+    f: 'youa',
+    n: "\u56f0\u56f0",
+    s: "(kk)",
+    m: "0f6c2477050285a33347805d86a94d17"
+}, {
+    f: 'youa',
+    n: "\u9119\u89c6\u3000",
+    s: "(:bs)",
+    m: "c5c3990f843ff99b964dfbc5ce77f3ac"
+}, {
+    f: 'youa',
+    n: "\u544a\u793a",
+    s: "(gs)",
+    m: "3c0f70c965fb07a0c92ba6010b115c93"
+}, {
+    f: 'youa',
+    n: "\u7bee\u7403",
+    s: "(lq)",
+    m: "d6c92983218597f1e03374f90b0c8896"
+}, {
+    f: 'youa',
+    n: "\u72c2\u9876",
+    s: "(kd)",
+    m: "c2cd066e8df775ee02e1f84f4c8febb0"
+}, {
+    f: 'youa',
+    n: "\u7529\u5934\u53d1",
+    s: "(stf)",
+    m: "9b7632dc820b2a952e34dff1bee17db1"
+}, {
+    f: 'youa',
+    n: "\u518d\u89c1\u3000",
+    s: "(bye)",
+    m: "0d98833aee6e63fcd3f1cfc728dad66b"
+}, {
+    f: 'youa',
+    n: "\u8d85\u4eba\u3000",
+    s: "(cc)",
+    m: "6210166e868bfc9747648b62b46cfcc6"
+}, {
+    f: 'youa',
+    n: "\u8fc7\u5e74\u597d",
+    s: "(gnh)",
+    m: "09689b9307f90b6568340befafe39e5c"
+}, {
+    f: 'youa',
+    n: "\u7ea2\u5305\u62ff\u6765",
+    s: "(hb)",
+    m: "bf58f8260b994cf6fa07601f5d194e3f"
+}, {
+    f: 'youa',
+    n: "\u606d\u559c\u53d1\u8d22",
+    s: "(:gx)",
+    m: "399ca36413576124428b2a89c51e6970"
+}, {
+    f: 'youa',
+    n: "\u6b22\u8fce\u5149\u4e34",
+    s: "(hy)",
+    m: "98b000b5aa8f6f200d4c227bd0406e42"
+}, {
+    f: 'youa',
+    n: "\u7a0d\u7b49",
+    s: "(sd)",
+    m: "ac7bb47cb022f8215e059573b7a721f5"
+}, {
+    f: 'youa',
+    n: "\u6211\u5728\u7ebf",
+    s: "(wzx)",
+    m: "3b225583cb9c3bdd7f4e7d47f3ff98a6"
+}, {
+    f: 'youa',
+    n: "\u6055\u4e0d\u8bae\u4ef7",
+    s: "(byj)",
+    m: "e62073630069871b7f8ade45ba13c9a3"
+}, {
+    f: 'youa',
+    n: "\u5e93\u623f\u6709\u8d27",
+    s: "(yh)",
+    m: "cf8370a69fbdf95f4cf56145687b37cd"
+}, {
+    f: 'youa',
+    n: "\u8d27\u5728\u8def\u4e0a",
+    s: "(zls)",
+    m: "64ffe8e7895c8a69bd72d9d5a2a1ed40"
+}];

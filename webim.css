@@ -1,0 +1,3132 @@
+html,body
+{
+  font:400 12px/16px STHeiti,宋体,Arial;
+  -webkit-text-size-adjust:none;
+  margin:0;
+  padding:0;
+}
+
+ .chatUserBlock
+{
+  background-image:url(../images/chatArea_bg.gif);
+  overflow:hidden;
+  position:relative;
+  left:0;
+  top:0;
+  background-position:left bottom;
+  background-repeat:repeat-x;
+}
+
+ .chatUserBlock .needScroll
+{
+  background-image:url(../images/scrollButton.gif);
+}
+
+#toolBarArea .emoContent
+{
+  background-image:url(../images/webimEmote.gif);
+  background-repeat:no-repeat;
+}
+
+#waitingBox .gifBox
+{
+  background-image:url(../images/loading_16x16.gif);
+  font-size:1px;
+  width:16px;
+  height:16px;
+  margin-left:72px;
+}
+
+#hiAd .hiAdBox
+{
+  background-image:url(../images/HiAdBg.gif);
+  height:264px;
+  overflow:hidden;
+  background-repeat:repeat-x;
+  position:relative;
+  left:0;
+  top:0;
+  text-align:center;
+  margin:1px;
+}
+
+#hiAd .hiAdMainbg,#hiAd .manyou,#hiAd .hiclient
+{
+  background-image:url(../images/HiAd.gif);
+  background-repeat:no-repeat;
+}
+
+.loginBox .loginMainBody
+{
+  background-image:url(../images/webimLoginBg.gif);
+  background-repeat:repeat-x;
+  float:left;
+  width:628px;
+  height:387px;
+  position:relative;
+  text-align:center;
+}
+
+textarea
+{
+  resize:none;
+}
+
+#mainBox
+{
+  cursor:default;
+  overflow:hidden;
+}
+
+#mainBox a
+{
+  outline:none;
+}
+
+#headArea
+{
+  height:28px;
+  background-position:0 0;
+  background-repeat:repeat-x;
+}
+
+#headArea .topLeftArea
+{
+  position:relative;
+}
+
+#headArea .logo
+{
+  width:20px;
+  height:21px;
+  background-position:-228px -255px;
+  position:absolute;
+  left:3px;
+  top:1px;
+  cursor:pointer;
+}
+
+#headArea .webIMSelfInfo
+{
+  position:absolute;
+  left:30px;
+  top:1px;
+  cursor:pointer;
+  height:21px;
+  line-height:21px;
+  color:#1C4295;
+  font-weight:700;
+  z-index:0;
+}
+
+#headArea .headButton
+{
+  height:20px;
+}
+
+#headArea .headButton div
+{
+  float:right;
+  cursor:pointer;
+  color:#1C4295;
+  height:18px;
+  border:1px solid transparent;
+  border-bottom:0;
+  _border-color:#FF6347;
+  _filter:chroma(color=tomato);
+  padding-right:3px;
+  font-size:12px;
+  line-height:16px;
+  margin:2px 3px 0 0;
+}
+
+#headArea .headButton div.mini
+{
+  overflow:hidden;
+  width:21px;
+  padding-left:17px;
+}
+
+#headArea .headButton .headLine
+{
+  font-size:1px;
+  width:1px;
+  border:0;
+  border-right:1px solid #93B5DC;
+  cursor:default;
+  margin-right:6px;
+}
+
+#headArea .feedback
+{
+  background-position:-484px -522px;
+  padding-left:18px;
+}
+
+#headArea .hiHome
+{
+  background-position:-484px -496px;
+  padding-left:18px;
+}
+
+#headArea .setWebIM
+{
+  background-position:-484px -596px;
+  padding-left:18px;
+}
+
+#headArea .headButton .setWebIM.setdown
+{
+  background-color:#FFF;
+  position:relative;
+  z-index:99;
+  border-color:#A9B0B8;
+}
+
+#headArea .setItemA
+{
+  outline:none;
+  display:block;
+  text-decoration:none;
+  color:#494949;
+  cursor:default;
+  margin:1px;
+}
+
+#headArea .setItem
+{
+  height:20px;
+  line-height:20px;
+  padding-left:18px;
+  text-align:left;
+  cursor:default;
+}
+
+#headArea .setItemLine
+{
+  cursor:default;
+  height:1px;
+  line-height:1px;
+  font-size:1px;
+  overflow:hidden;
+  border-bottom:1px solid #D2D5DA;
+  margin:0 1px;
+}
+
+#headArea #setLayer
+{
+  background:#FFF;
+  border:1px solid #A9B0B8;
+  width:120px;
+  position:absolute;
+  top:19px;
+  right:0;
+  z-index:98;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+}
+
+#headArea #setLayer.show
+{
+  width:183px;
+}
+
+#headArea #setLayer .setTitle
+{
+  line-height:24px;
+  font-size:12px;
+  font-weight:700;
+  height:24px;
+  background-color:#F6FAFF;
+  color:#3074BB;
+  padding-left:8px;
+  margin:1px;
+}
+
+#headArea #setLayer .setContent
+{
+  color:#000;
+  position:relative;
+  left:0;
+  top:0;
+  overflow:hidden;
+  zoom:1;
+}
+
+#headArea #setLayer.show .setContent
+{
+  height:55px;
+}
+
+#headArea #setLayer .setContent .setTop
+{
+  display:none;
+  margin:5px 0 0 5px;
+}
+
+#headArea #setLayer.show .setContent .setTop
+{
+  display:block;
+}
+
+#headArea #setLayer .setContent .setEmailText
+{
+  color:#385fa7;
+}
+
+#headArea #setLayer .setContent #setEmailList
+{
+  line-height:18px;
+  width:110px;
+  height:21px;
+}
+
+#headArea #setLayer .setContent .setLabel
+{
+  text-align:right;
+  margin:5px 10px 0;
+}
+
+#setLayer .setSkin
+{
+  position:relative;
+  text-align:right;
+  margin-top:5px;
+}
+
+#setLayer #setSkinContent
+{
+  float:right;
+  margin-right:10px;
+  overflow:hidden;
+  zoom:1;
+}
+
+#setLayer a.skinItem
+{
+  width:14px;
+  height:14px;
+  display:block;
+  float:left;
+  margin-left:3px;
+  font-size:1px;
+  line-height:1px;
+  text-decoration:none;
+  outline:none;
+}
+
+#setLayer a.skinItem.checked
+{
+  background-position:-150px -290px;
+}
+
+#headArea #setLayer .setButtonArea
+{
+  background-color:#F6FAFF;
+  height:27px;
+  margin:1px;
+}
+
+#headArea #setLayer input
+{
+  position:relative;
+  top:2px;
+  outline:none;
+}
+
+#headArea #setLayer input.mac
+{
+  top:0;
+}
+
+#headArea #setLayer .setLabel span
+{
+  word-break:keep-all;
+  white-space:nowrap;
+}
+
+#headArea #setLayer .customButton
+{
+  position:absolute;
+  bottom:4px;
+  right:5px;
+}
+
+#bodyArea
+{
+  zoom:1;
+}
+
+#leftArea
+{
+  float:left;
+  width:160px;
+  margin-left:5px;
+  overflow:hidden;
+  zoom:1;
+  display:inline\9;
+  border-bottom:1px solid #D6D6D6;
+}
+
+#leftArea #searchArea
+{
+  background-color:#EFFAFE;
+  height:29px;
+  width:158px;
+  position:relative;
+}
+
+#leftArea .leftListType
+{
+  height:22px;
+  overflow:hidden;
+  zoom:1;
+  background-position:left bottom;
+}
+
+#leftArea .leftListType div
+{
+  float:left;
+  width:79px;
+  text-align:center;
+  height:22px;
+  line-height:22px;
+  cursor:pointer;
+  background-position:-170px -138px;
+}
+
+#leftArea .leftListType .tabChecked
+{
+  background-position:-261px -138px;
+  cursor:default;
+}
+
+#leftArea .leftListBox
+{
+  background-color:#FFF;
+  border:1px solid #BBBFC4;
+  border-top:0;
+  border-bottom:0;
+  overflow:hidden;
+  width:160px;
+  zoom:1;
+}
+
+#leftArea #groupListTab .noGroupText
+{
+  text-align:center;
+  margin-top:5px;
+}
+
+#leftArea #groupListBox
+{
+  width:auto;
+}
+
+.groupLoading
+{
+  height:16px;
+  display:inline-block;
+  background:url(../images/loading_16x16.gif) no-repeat;
+  outline:none;
+  position:relative;
+  top:5px;
+  left:5px;
+  text-indent:22px;
+}
+
+.groupNoticeTip
+{
+  position:absolute;
+  border:1px solid #DCDFE2;
+  left:100px;
+  top:200px;
+  z-index:11;
+  cursor:default;
+  background:#FFF url(../images/noticeBanner.gif) repeat-x;
+  filter:Alpha(opacity=98);
+  opacity:.98;
+}
+
+.groupNoticeTip .noticeText
+{
+  width:164px;
+  overflow-y:auto;
+  max-height:150px;
+}
+
+.groupNoticeTip .noticeText p
+{
+  word-break:break-all;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  color:#000;
+  line-height:18px;
+  margin:3px 6px;
+}
+
+#waitingBox
+{
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index:900;
+  background-color:#DAF5FC;
+  filter:Alpha(opacity=50);
+  opacity:.5;
+  width:160px;
+}
+
+#waitingBox .waitContent
+{
+  cursor:default;
+}
+
+#waitingBox .waitContent .waitText
+{
+  line-height:30px;
+  text-align:center;
+}
+
+#rightArea
+{
+  margin-left:5px;
+  float:left;
+  position:relative;
+  top:0;
+  left:0;
+  zoom:1;
+  display:inline\9;
+}
+
+#tabArea
+{
+  height:22px;
+  background-position:0 -628px;
+  background-repeat:repeat-x;
+  position:relative;
+  top:0;
+  left:0;
+  z-index:9;
+  overflow:hidden;
+  -moz-user-select:none;
+}
+
+
+{
+  background-color:#FFF;
+  height:80px;
+  overflow:hidden;
+  border-color:#D6D6D6;
+  border-style:solid;
+  border-width:0 1px 1px;
+}
+
+ .chatUserBlock .chatBlock
+{
+  overflow:auto;
+  overflow-x:hidden;
+}
+
+ .chatUserBlock .scrollButton
+{
+  width:13px;
+  height:13px;
+  position:absolute;
+  background-position:-142px -341px;
+  font-size:1px;
+  cursor:pointer;
+  right:17px;
+  bottom:1px;
+}
+
+ .messageBlock
+{
+  padding-bottom:1px;
+  _padding-bottom:5px;
+  margin:0 5px 2px;
+}
+
+ .messageBlock .reply
+{
+  background-color:#F5FDFF;
+  border:1px solid #CADCEA;
+  display:inline-block;
+  width:254px;
+  margin:2px 10px 2px 0;
+  padding:3px;
+}
+
+ .messageBlock .reply span.replyText
+{
+  font-weight:400;
+  color:gray;
+  margin-left:8px;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+ .messageBlock .selfMessageTitle
+{
+  color:#008040;
+}
+
+ .historyMessageBlock
+{
+  margin:0 5px 2px;
+}
+
+ .historyMessageBlock .messageTitle
+{
+  color:#ABABAB;
+}
+
+ .historyMessageBlock .messageText
+{
+  color:#C4C4C4;
+  margin-left:10px;
+  word-break:break-all;
+  white-space:pre-wrap;
+  zoom:1;
+  font:400 12px/16px STHeiti,宋体,Arial;
+}
+
+ .historyMessageBlock .reply
+{
+  background-color:#FDFDFD;
+  border:1px solid #F6F6F6;
+  display:inline-block;
+  width:254px;
+  margin:2px 10px 2px 0;
+  padding:3px;
+}
+
+ .historyMessageBlock .reply span.replyText
+{
+  color:#C4C4C4;
+  margin-left:8px;
+  font-weight:400;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+ .historyMessageBlock a
+{
+  color:#C4C4C4;
+}
+
+ .historyMessageBlock a:hover
+{
+  color:#888;
+}
+
+ .chatBlock .historyLine
+{
+  border-bottom:1px solid #F0F0F0;
+  height:1px;
+  overflow:hidden;
+  font:400 1px/1px;
+  margin:12px 10px;
+}
+
+ .messageTip
+{
+  background-color:#F8F8F8;
+  position:relative;
+  left:0;
+  top:0;
+  padding:2px;
+}
+
+ .messageTip .tipIcon
+{
+  background-position:-32px -395px;
+  width:14px;
+  height:12px;
+  display:inline-block;
+  font-size:1px;
+  line-height:1px;
+  position:absolute;
+  top:3px;
+  left:5px;
+}
+
+ .messageTip .tipIcon.block
+{
+  background-position:-62px -395px;
+}
+
+ .messageTip .tipText
+{
+  margin:0 18px 0 21px;
+}
+
+ .messageTip .tipText a
+{
+  color:#0435AC;
+  display:inline-block;
+}
+
+ .messageTip .tipClose
+{
+  background-position:-1px -163px;
+  width:15px;
+  height:15px;
+  display:inline-block;
+  font-size:1px;
+  line-height:1px;
+  position:absolute;
+  right:2px;
+  top:2px;
+  z-index:2;
+}
+
+#toolBarArea
+{
+  height:29px;
+  background-color:#FFF;
+  position:relative;
+  left:0;
+  top:0;
+  z-index:8;
+  border-color:#E8E8E8 #BBBFC4;
+  border-style:solid;
+  border-width:0 1px;
+}
+
+#toolBarArea .emoteButton
+{
+  width:22px;
+  height:22px;
+  background-position:0 -339px;
+  float:left;
+  cursor:pointer;
+  margin:4px 0 0 4px;
+}
+
+#toolBarArea .emoteButton.down
+{
+  background-position:-30px -339px;
+}
+
+#toolBarArea .emoteButton.blocked
+{
+  background-position:-60px -339px;
+}
+
+#toolBarArea .blockButton
+{
+  width:22px;
+  height:22px;
+  background-position:0 -314px;
+  float:left;
+  cursor:pointer;
+  margin:4px 0 0 4px;
+}
+
+#toolBarArea .blockButton.block
+{
+  background-position:-30px -314px;
+}
+
+#toolBarArea .recordButton
+{
+  width:22px;
+  height:22px;
+  background-position:0 -364px;
+  float:left;
+  cursor:pointer;
+  margin:4px 0 0 4px;
+}
+
+#toolBarArea .flashButtonBox
+{
+  float:left;
+  width:26px;
+  height:25px;
+  overflow:hidden;
+  position:relative;
+  _top:4px;
+}
+
+#toolBarArea .flashButtonBox.sbx
+{
+  top:3px;
+}
+
+#toolBarArea .picButton
+{
+  width:22px;
+  height:22px;
+  position:absolute;
+  left:4px;
+  top:2px;
+  overflow:hidden;
+}
+
+#toolBarArea .fileButton
+{
+  width:22px;
+  height:22px;
+  position:absolute;
+  left:30px;
+  top:2px;
+  overflow:hidden;
+}
+
+#toolBarArea .addButton
+{
+  height:22px;
+  background-position:-62px -364px;
+  cursor:pointer;
+  line-height:22px;
+  padding-left:22px;
+  float:right;
+  color:#2778CD;
+  text-decoration:underline;
+  margin:4px 8px 0 4px;
+}
+
+#toolBarArea .fileButtonMock
+{
+  width:22px;
+  height:22px;
+  position:absolute;
+  left:30px;
+  top:3px;
+  z-index:2;
+  overflow:hidden;
+  cursor:pointer;
+  background:#FFF;
+  filter:Alpha(opacity=0);
+  opacity:0;
+}
+
+#toolBarArea .picButtonMock
+{
+  width:26px;
+  height:25px;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:2;
+  overflow:hidden;
+  cursor:pointer;
+  background-color:#FFF;
+}
+
+#toolBarArea .picButtonMock span
+{
+  width:14px;
+  height:16px;
+  display:inline-block;
+  font-size:1px;
+  line-height:1px;
+  cursor:pointer;
+  background-position:-133px -451px;
+  position:absolute;
+  left:7px;
+  top:6px;
+}
+
+#toolBarArea .emoteShadowLayer
+{
+  width:267px;
+  height:222px;
+  position:absolute;
+  left:4px;
+  top:-218px;
+  z-index:9;
+  background-color:#F6FAFD;
+  border:1px solid #6095C1;
+  overflow:hidden;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+}
+
+#toolBarArea .emoteLayer
+{
+  width:267px;
+  height:222px;
+  position:absolute;
+  left:4px;
+  top:-218px;
+  z-index:10;
+  background-color:#F6FAFD;
+  border:1px solid #6095C1;
+  overflow:hidden;
+}
+
+#toolBarArea .emoteLayer .tabContent
+{
+  height:19px;
+  padding:5px 5px 0;
+}
+
+#toolBarArea .emoteLayer .tabContent .emoTab
+{
+  float:left;
+  height:19px;
+  width:65px;
+}
+
+#toolBarArea .emoteLayer .tabContent .emoTab a
+{
+  line-height:19px;
+  display:block;
+  text-decoration:none;
+  cursor:pointer;
+  color:#000;
+  outline:0;
+  text-align:center;
+  padding:0 5px;
+}
+
+#toolBarArea .emoteLayer .tabContent .emoTab a:hover
+{
+  background-color:#D1E5F7;
+}
+
+#toolBarArea .emoteLayer .tabContent .emoTab.highlight a
+{
+  background-color:#005EAC;
+  color:#FFF;
+  line-height:19px;
+  font-weight:700;
+}
+
+#toolBarArea .emoteLayer .tabContent .emoTab.highlight a:hover
+{
+  background-color:#005EAC;
+  color:#FFF;
+}
+
+#toolBarArea .emoteLayer .emoContent
+{
+  width:257px;
+  height:193px;
+  margin:0 0 0 5px;
+}
+
+#toolBarArea .emoteLayer .emoContent.bear
+{
+  background-position:0 -207px;
+}
+
+#toolBarArea .emoteLayer .emoContent .emoteBlock
+{
+  float:left;
+  width:32px;
+  height:32px;
+  overflow:hidden;
+}
+
+#toolBarArea .emoteLayer .emoContent .emoteBlock a
+{
+  width:31px;
+  height:31px;
+  display:block;
+  zoom:1;
+  margin:1px 0 0 1px;
+}
+
+#toolBarArea .emoteLayer .emoContent .emoteBlock a:hover
+{
+  background-color:#D1E5F7;
+  filter:Alpha(opacity=20);
+  opacity:.2;
+  border:1px solid #005EAC;
+}
+
+#typeArea
+{
+  border:1px solid #D6D6D6;
+  zoom:1;
+  background-color:#FFF;
+  height:67px;
+}
+
+#typeArea.block
+{
+  background-color:#F0F0F0;
+  border:1px solid #D6D6D6;
+}
+
+#rightArea .focus
+{
+  border:1px solid #A3CFFB;
+}
+
+#textArea
+{
+  float:left;
+  overflow:hidden;
+  height:67px;
+}
+
+#userInputArea
+{
+  height:65px;
+  font:400 12px/18px STHeiti,宋体,Arial;
+  border:0;
+  overflow:auto;
+  overflow-x:hidden;
+  outline:none;
+  margin:0;
+  padding:2px;
+}
+
+#typeArea.block #userInputArea
+{
+  background-color:#F0F0F0;
+}
+
+#sendArea
+{
+  float:right;
+  width:68px;
+  zoom:1;
+  position:relative;
+  z-index:8;
+}
+
+#sendMethodSelectLayer
+{
+  position:absolute;
+  top:32px;
+  right:4px;
+  width:116px;
+  background-color:#FFF;
+  border:1px solid #A8B3C7;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  padding:1px;
+}
+
+#sendMethodSelectLayer a
+{
+  display:block;
+  height:20px;
+  line-height:20px;
+  padding-left:15px;
+  white-space:nowrap;
+  cursor:pointer;
+  text-decoration:none;
+  color:#000;
+}
+
+#sendMethodSelectLayer .checked
+{
+  background-position:-148px -286px;
+}
+
+#sendButtonBox
+{
+  float:right;
+  width:59px;
+  height:25px;
+  border:1px solid #6095C1;
+  cursor:pointer;
+  background-position:right -225px;
+  overflow:hidden;
+  margin:8px 7px 0 0;
+}
+
+#sendButtonBox #sendButton
+{
+  float:left;
+  line-height:23px;
+  color:#111;
+  height:25px;
+  width:47px;
+  text-align:center;
+  border-right:1px solid #6095C1;
+}
+
+#sendButtonBox #sendOption
+{
+  float:left;
+  height:25px;
+  width:10px;
+  font-size:1px;
+}
+
+#sendButtonBox.hover
+{
+  background-position:right -280px;
+}
+
+#sendButtonBox.down
+{
+  background-position:right -308px;
+}
+
+#sendButtonBox.block
+{
+  border:1px solid #BDBDBD;
+  background-position:right -252px;
+  cursor:default;
+}
+
+#sendButtonBox.block #sendButton
+{
+  border-right:1px solid #BDBDBD;
+  color:#8E8C87;
+  cursor:default;
+}
+
+#systemMessageBox
+{
+  position:absolute;
+  left:0;
+  top:22px;
+  z-index:8;
+  background-color:#FFF;
+  overflow:auto;
+  line-height:18px;
+  border-color:#D6D6D6;
+  border-style:solid;
+  border-width:0 1px 1px;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetIcon
+{
+  float:left;
+  width:24px;
+  height:24px;
+  background-position:-30px -417px;
+}
+
+#systemMessageBox .addUserRequset.readed .addUserRequsetIcon
+{
+  background-position:-30px -448px;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetContent
+{
+  margin-left:30px;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetContent em
+{
+  color:#999;
+  margin-right:5px;
+  font-style:normal;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetContent span
+{
+  color:#CCC;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea
+{
+  float:left;
+  width:24px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon
+{
+  background-position:-30px -417px;
+  width:24px;
+  height:24px;
+  display:inline-block;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.iknow
+{
+  background-position:-54px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.tieba
+{
+  background-position:-150px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.baike
+{
+  background-position:-102px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.youa
+{
+  background-position:-78px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.hi
+{
+  background-position:-30px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon.kongjian
+{
+  background-position:-126px -417px;
+}
+
+#systemMessageBox .systemMessageBlock .systemIconArea p
+{
+  text-align:center;
+  margin:0;
+}
+
+#systemMessageBox .systemMessageBlock .systemInfoContent
+{
+  margin-left:30px;
+  word-break:break-all;
+  white-space:pre-wrap;
+  _display:inline-block;
+}
+
+#systemMessageBox .systemMessageBlock .title
+{
+  font-weight:700;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+#systemMessageBox .systemMessageBlock .detail
+{
+  float:right;
+  margin-right:3px;
+}
+
+#systemMessageBox .systemMessageBlock .groupSysLink
+{
+  color:#375DA7;
+  margin:0 2px;
+}
+
+#systemMessageBox .systemMessageBlock .groupSysText
+{
+  color:#FF7D00;
+  margin:0 2px;
+}
+
+#footArea
+{
+  height:26px;
+}
+
+#contactAreaButton
+{
+  margin:3px 0 0 5px;
+}
+
+#contactAreaButton a
+{
+  line-height:21px;
+  color:#2778CD;
+  text-decoration:none;
+  width:65px;
+  background-position:100px 100px;
+  text-align:left;
+  padding-left:3px;
+  display:inline-block;
+  outline:0;
+}
+
+#contactAreaButton a:hover
+{
+  line-height:21px;
+  background-position:0 -289px;
+}
+
+#mainLoading
+{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:999;
+  overflow:hidden;
+  background-color:#EFEFEF;
+}
+
+#mainLoading .loadingBox
+{
+  width:117px;
+  height:150px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+#mainLoading .mainLoadingImage
+{
+  width:117px;
+  height:123px;
+  display:inline-block;
+  cursor:default;
+  background-image:url(../../../common/images/loading.gif);
+}
+
+#mainLoading p
+{
+  line-height:21px;
+  text-align:center;
+  cursor:default;
+  margin:0 auto;
+}
+
+#hiAd
+{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  background-color:#FFF;
+  border:1px solid #D6D6D6;
+  overflow:hidden;
+  line-height:20px;
+}
+
+#hiAd .hiAdMainbg
+{
+  background-position:0 0;
+  width:333px;
+  height:246px;
+  position:relative;
+  left:0;
+  top:2px;
+  margin:0 auto;
+}
+
+#hiAd .adText
+{
+  font-weight:700;
+  color:#3E77B7;
+  position:absolute;
+  top:8px;
+  left:10px;
+  z-index:3;
+}
+
+#hiAd a
+{
+  font-size:1px;
+  line-height:1px;
+}
+
+#hiAd .manyou
+{
+  display:inline-block;
+  background-position:0 -246px;
+  width:85px;
+  height:14px;
+  position:absolute;
+  top:114px;
+  left:121px;
+}
+
+#hiAd .hiclient
+{
+  display:inline-block;
+  background-position:-146px -246px;
+  width:42px;
+  height:14px;
+  position:absolute;
+  top:143px;
+  left:95px;
+}
+
+.customButton
+{
+  display:inline-block;
+  width:57px;
+  height:20px;
+  line-height:20px;
+  background-position:0 -256px;
+  text-align:center;
+  cursor:default;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.customButton.buttonover
+{
+  background-position:-67px -256px;
+}
+
+.customButton.buttondown
+{
+  background-position:-134px -256px;
+}
+
+.layerCloseButton
+{
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background-position:-97px -163px;
+  font-size:1px;
+}
+
+.infoLayerBox
+{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:1000;
+  background-color:#A7C4E4;
+  filter:Alpha(opacity=20);
+  opacity:.2;
+}
+
+.infoLayer
+{
+  position:absolute;
+  z-index:1001;
+  background-color:#FFF;
+  border:1px solid #B6C8D7;
+  width:266px;
+  cursor:default;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+}
+
+.infoLayer .layerTitle
+{
+  height:21px;
+  background-color:#F6FAFF;
+  position:relative;
+  left:0;
+  top:0;
+  margin:1px;
+}
+
+.infoLayer .layerTitle .titleText
+{
+  font-weight:700;
+  line-height:21px;
+  margin-left:8px;
+  color:#3074BB;
+}
+
+.infoLayer .layerTitle .layerCloseButton
+{
+  position:absolute;
+  right:3px;
+  top:3px;
+}
+
+.infoLayer .layerBody
+{
+  line-height:21px;
+  overflow:hidden;
+  zoom:1;
+  position:relative;
+  white-space:pre-wrap;
+  word-break:break-all;
+  word-wrap:break-word;
+  margin:1px;
+}
+
+.infoLayer .layerBody p
+{
+  vertical-align:middle;
+  margin:2px 8px;
+}
+
+.infoLayer .layerRoot
+{
+  height:31px;
+  background-color:#F6FAFF;
+  line-height:21px;
+  margin:1px;
+}
+
+.infoLayer .layerRoot .customButton
+{
+  float:right;
+  margin:6px 6px 0 0;
+}
+
+.infoLayer .userCheckArea
+{
+  font:400 12px/16px STHeiti,宋体,Arial;
+  width:240px;
+  height:42px;
+  border:1px solid #7F9DB9;
+  overflow:auto;
+  outline:none;
+}
+
+.infoLayer .groupP
+{
+  padding-bottom:7px;
+}
+
+.infoLayer .userCheckGroup
+{
+  display:inline-block;
+  position:relative;
+  top:4px;
+  margin-bottom:3px;
+  width:164px;
+  height:20px;
+  z-index:5;
+}
+
+.infoLayer .userGroupText
+{
+  font:400 12px/20px STHeiti,宋体,Arial;
+  line-height:20px;
+  height:22px;
+  width:128px;
+  border:1px solid #7F9DB9;
+  position:absolute;
+  left:0;
+  top:0;
+  cursor:default;
+  padding:0 0 0 2px;
+}
+
+.infoLayer .userGropIcon
+{
+  position:absolute;
+  right:0;
+  top:0;
+  width:26px;
+  height:20px;
+  line-height:20px;
+  display:inline-block;
+  cursor:pointer;
+  color:#2778CD;
+  text-decoration:underline;
+}
+
+.infoLayer .userCheckText
+{
+  font:400 12px/18px STHeiti,宋体,Arial;
+  width:64px;
+  height:22px;
+  border:1px solid #7F9DB9;
+  line-height:18px;
+  outline:none;
+  margin:5px 0;
+}
+
+.infoLayer .userCheckImg
+{
+  position:absolute;
+  left:80px;
+  bottom:7px;
+  border:1px solid #7F9DB9;
+}
+
+.infoLayer .userCheckLink
+{
+  color:#2778CD;
+  text-decoration:underline;
+  line-height:18px;
+  position:absolute;
+  right:15px;
+  bottom:7px;
+}
+
+.groupSelectBox
+{
+  width:262px;
+  height:160px;
+  overflow:auto;
+  background-color:#FFF;
+}
+
+.groupSelectBox a
+{
+  color:#000;
+  outline:none;
+  display:block;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.groupSelectBox a:hover
+{
+  background-color:#EFFAFF;
+}
+
+.groupSelectBox .groupItem
+{
+  margin-left:17px;
+}
+
+.groupSelectBox .groupItem .tItem
+{
+  position:relative;
+  height:25px;
+  overflow:hidden;
+  zoom:1;
+}
+
+.groupSelectBox .groupItem .arrowIcon
+{
+  width:10px;
+  height:10px;
+  background-position:-326px -261px;
+  font-size:1px;
+  line-height:1px;
+  position:absolute;
+  left:1px;
+  top:9px;
+  display:inline-block;
+}
+
+.groupSelectBox .groupItem .rb
+{
+  position:absolute;
+  top:1px;
+  left:13px;
+}
+
+.groupSelectBox .groupItem .rb input
+{
+  outline:none;
+  margin:0;
+  padding:0;
+}
+
+.groupSelectBox .groupItem .gn
+{
+  line-height:18px;
+  word-wrap:normal;
+  white-space:nowrap;
+  word-break:keep-all;
+  text-align:left;
+  position:absolute;
+  top:3px;
+  left:33px;
+}
+
+.successIcon
+{
+  width:45px;
+  height:44px;
+  background-position:-217px -174px;
+  display:inline-block;
+  font-size:1px;
+  margin:10px;
+}
+
+.failureIcon
+{
+  width:45px;
+  height:44px;
+  background-position:-282px -174px;
+  display:inline-block;
+  font-size:1px;
+  margin:10px;
+}
+
+.alertIcon
+{
+  width:45px;
+  height:44px;
+  background-position:-315px -550px;
+  display:inline-block;
+  font-size:1px;
+  margin:10px;
+}
+
+.dialogConfirm
+{
+  width:45px;
+  height:44px;
+  background-position:-348px -174px;
+  display:inline-block;
+  font-size:1px;
+  margin:10px;
+}
+
+.dialogCofirmText
+{
+  line-height:18px;
+  width:180px;
+  float:right;
+  padding-top:5px;
+  margin:10px 10px 10px 0;
+}
+
+.dialogCofirmText2
+{
+  line-height:18px;
+  width:180px;
+  float:right;
+  padding-top:5px;
+  margin:5px 10px 10px 0;
+}
+
+.dialogCofirmText2 .check
+{
+  outline:none;
+  position:relative;
+  top:2px;
+}
+
+.dialogShowText
+{
+  line-height:18px;
+  width:180px;
+  float:right;
+  margin:22px 10px 10px 0;
+}
+
+.dialogShowText .askHighlight
+{
+  color:#FF7D00;
+}
+
+#searchInput
+{
+  font:400 12px/16px STHeiti,宋体,Arial;
+  height:22px;
+  width:148px;
+  margin-left:5px;
+  margin-top:2px;
+  padding-right:20px;
+  border:1px solid #D6D6D6;
+  outline:none;
+}
+
+#searchClear
+{
+  left:140px;
+  top:11px;
+  width:6px;
+  height:6px;
+  position:absolute;
+  display:inline-block;
+  cursor:pointer;
+}
+
+#searchArea .light
+{
+  color:#919191;
+}
+
+#searchArea .clear
+{
+  background-position:-145px -320px;
+}
+
+#searchArea a:hover .clear
+{
+  background-position:-165px -320px;
+}
+
+#noneSearch span
+{
+  font-size:12px;
+  padding-left:5px;
+}
+
+.mainMenu
+{
+  position:absolute;
+  z-index:10000;
+  background-color:#FFF;
+  border:1px solid #B6C8D7;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  overflow:hidden;
+  padding:1px;
+}
+
+.mainMenu a.item
+{
+  height:22px;
+  line-height:22px;
+  display:block;
+  text-align:left;
+  text-decoration:none;
+  cursor:default;
+  white-space:nowrap;
+  color:#000;
+  padding:0 3px;
+}
+
+.mainMenu a:hover.item
+{
+  background-color:#F6FAFF;
+}
+
+.mainMenu .line
+{
+  border-top:1px solid #B6C8D7;
+  color:#B6C8D7;
+  height:1px;
+  line-height:1px;
+  font-size:1px;
+  overflow:hidden;
+  margin:1px 0;
+  padding:0;
+}
+
+.definedFace
+{
+  width:16px;
+  height:16px;
+  display:inline-block;
+  background-image:url(../images/loading_16x16.gif);
+  outline:none;
+}
+
+.definedFace.loaded
+{
+  width:auto;
+  height:auto;
+  display:inline;
+  background-image:url();
+}
+
+.definedFace.loadfail
+{
+  background-image:url(../images/webim.gif);
+  background-repeat:no-repeat;
+  background-position:-228px -316px;
+  width:49px;
+  height:40px;
+  display:inline-block;
+}
+
+.definedFaceUpload
+{
+  width:16px;
+  height:16px;
+  display:inline-block;
+  background-image:url(../images/loading_16x16.gif);
+  outline:none;
+  position:relative;
+  top:4px;
+  _top:2px;
+}
+
+.loginBg
+{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  z-index:998;
+  background-color:#F9FAFB;
+}
+
+.loginBox
+{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:999;
+  width:640px;
+  height:387px;
+}
+
+.loginBox a
+{
+  color:#3474D0;
+  outline:none;
+}
+
+.loginBox .loginLeftBorder
+{
+  float:left;
+  width:6px;
+  background-position:-383px -224px;
+  font-size:1px;
+  height:387px;
+}
+
+.loginBox .loginRightBorder
+{
+  float:left;
+  width:6px;
+  background-position:-389px -224px;
+  font-size:1px;
+  height:387px;
+}
+
+.loginBox .loginContent
+{
+  width:300px;
+  padding-top:60px;
+  margin:0 auto;
+}
+
+.loginBox #loginButtonArea
+{
+  width:300px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.loginBox .loginButtonArea
+{
+  height:30px;
+  position:relative;
+  display:none;
+}
+
+.loginBox .loginButtonArea a
+{
+  position:absolute;
+  left:180px;
+  top:6px;
+}
+
+.loginBox .loginRegArea
+{
+  margin-top:25px;
+  _margin-top:8px;
+}
+
+.loginBox .loginLogo
+{
+  position:absolute;
+  left:10px;
+  top:14px;
+  background-position:-108px -518px;
+  width:121px;
+  height:53px;
+}
+
+.loginBox .loginRB
+{
+  position:absolute;
+  right:0;
+  bottom:6px;
+  z-index:8;
+  background-position:-183px -313px;
+  width:196px;
+  height:193px;
+}
+
+.loginBox .loginButton
+{
+  width:99px;
+  height:25px;
+  cursor:pointer;
+  background-position:0 -531px;
+  position:absolute;
+  left:70px;
+  top:1px;
+}
+
+#webim-pass-error
+{
+  position:absolute;
+  width:1000px;
+  line-height:14px;
+  height:14px;
+  top:-20px;
+  color:red;
+  left:50px;
+}
+
+.loginBox .loginContent input
+{
+  width:205px;
+  height:23px;
+  background-position:0 -573px;
+  background-color:transparent;
+  border:0;
+  line-height:20px;
+  outline:none;
+  padding:0 2px;
+}
+
+.loginContent form
+{
+  text-align:left;
+  position:relative;
+  margin:5px;
+}
+
+.loginContent form p
+{
+  cursor:default;
+  margin:5px 0 0;
+}
+
+.loginBox .loginContent input[type="checkbox"]
+{
+  position:relative;
+  top:3px;
+  background-image:url();
+  width:13px;
+  height:13px;
+}
+
+.loginContent form input[type="button"]
+{
+  background-position:0 -531px;
+  border:0;
+  width:99px;
+  height:25px;
+  color:transparent;
+  margin:0;
+  padding:0;
+}
+
+.loginBox .loginContent form .pass_login_input_submit
+{
+  background-position:0 -531px;
+  border:0;
+  width:99px;
+  height:25px;
+  color:transparent;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+  filter:expression(this.value="");
+  margin:0;
+  padding:0;
+}
+
+.pass_login_p_rem
+{
+  padding-left:47px;
+}
+
+.pass_login_p_des
+{
+  padding-left:51px;
+}
+
+#pass_login_p_btn_0
+{
+  text-align:left;
+  margin-top:10px;
+  padding-left:51px;
+}
+
+#pass_login_p_btn_0 a
+{
+  margin-left:10px;
+  position:relative;
+  top:-2px;
+  _top:-5px;
+}
+
+.pass_login_p_img_verifycode span
+{
+  margin-left:3px;
+  color:#3474D0;
+  outline:none;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.pass-form-wapper-login
+{
+  text-align:left;
+  position:relative;
+  z-index:10;
+}
+
+.pass-wrapper
+{
+  margin:5px;
+}
+
+.pass-wrapper p
+{
+  cursor:default;
+  margin:5px 0 0;
+}
+
+.pass-form fieldset
+{
+  border:0;
+  padding:0;
+}
+
+.pass-server-error
+{
+  color:red;
+  text-align:center;
+}
+
+.pass-verifycode a
+{
+  margin-left:3px;
+}
+
+.pass-mem_pass
+{
+  padding-left:46px;
+}
+
+.pass-wrapper .pass-submit
+{
+  text-align:left;
+  margin-top:10px;
+  padding-left:50px;
+}
+
+.pass-submit button
+{
+  _position:relative;
+  _top:2px;
+  width:99px;
+  height:25px;
+  cursor:pointer;
+  background-position:0 -531px;
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+.pass-submit a
+{
+  margin-left:10px;
+  position:relative;
+  top:2px;
+  _top:-1px;
+}
+
+.fileTipBox
+{
+  display:inline-block;
+  width:337px;
+  border:1px solid #E6EAF0;
+  background-color:#F9FAFC;
+  position:relative;
+  zoom:1;
+  overflow:hidden;
+  padding-bottom:2px;
+}
+
+.fileTipBox .fileTipIcon
+{
+  position:absolute;
+  top:4px;
+  left:4px;
+}
+
+.fileTipBox .fileTipTop
+{
+  display:inline-block;
+  margin-left:40px;
+  margin-top:2px;
+  width:295px;
+  overflow:hidden;
+  height:16px;
+  line-height:16px;
+}
+
+.fileTipBox .fileTipTop a.canceled
+{
+  color:#CCC;
+}
+
+.fileTipBox .fileTipMid
+{
+  display:inline-block;
+  margin-left:40px;
+  float:left;
+  width:295px;
+  overflow:hidden;
+  line-height:16px;
+  word-break:break-all;
+  word-wrap:break-word;
+  white-space:pre-wrap;
+  color:#8E8E8E;
+}
+
+.fileTipBox .fileTipBot
+{
+  display:inline-block;
+  margin-left:40px;
+  margin-bottom:2px;
+  float:left;
+  width:295px;
+  overflow:hidden;
+  height:16px;
+}
+
+.fileTipBox .fileTipBot .downIcon
+{
+  background-position:-282px -575px;
+  width:16px;
+  height:16px;
+  display:inline-block;
+  float:left;
+}
+
+.fileTipBox .fileTipBot .downIcon.sendOK
+{
+  background-position:-282px -548px;
+}
+
+.fileTipBox .fileTipBot .downIcon.sendNO
+{
+  background-position:-282px -523px;
+}
+
+.fileTipBox .fileTipBot .downText
+{
+  float:left;
+  display:inline-block;
+  margin-left:5px;
+  line-height:16px;
+  font-weight:700;
+  color:#EEA019;
+}
+
+.fileTipBox .fileTipBot .downText.getOK
+{
+  font-weight:700;
+  color:#094;
+}
+
+.fileTipBox .fileTipBot .downText.getOK a
+{
+  color:#00F;
+  text-decoration:underline;
+  outline:none;
+}
+
+.fileTipBox .fileTipBot .downText.getNO
+{
+  font-weight:700;
+  color:#DC552C;
+}
+
+.fileTipBox .fileTipBot .downText.progress
+{
+  margin-left:0;
+  color:#4A4A4a;
+  font-weight:400;
+}
+
+.fileAlert
+{
+  zoom:1;
+  overflow:hidden;
+  display:inline-block;
+}
+
+.fileAlert .fileAlertIcon
+{
+  background-position:-320px -523px;
+  width:16px;
+  height:16px;
+  display:inline-block;
+  float:left;
+  margin-right:2px;
+}
+
+.fileAlert .fileAlertText
+{
+  font-weight:700;
+  color:#A5A5A5;
+  float:left;
+  margin:1px 0 0 4px;
+}
+
+.fileAlert .fileAlertText .alertTipLink
+{
+  color:#00F;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+#groupBar
+{
+  position:absolute;
+  right:4px;
+  top:49px;
+  width:23px;
+  cursor:default;
+}
+
+#groupBarButton
+{
+  position:absolute;
+  right:0;
+  height:90px;
+  width:23px;
+  cursor:pointer;
+  background-position:-409px -504px;
+}
+
+#groupBarButton.opened
+{
+  background-position:-439px -504px;
+  right:1px;
+  width:23px;
+}
+
+#groupUsersBox
+{
+  width:0;
+  position:absolute;
+  right:24px;
+  border-left:1px solid #BABFC5;
+  height:100px;
+  background-color:#FFF;
+  top:1px;
+  z-index:8;
+  overflow:hidden;
+}
+
+#groupNoticeBox
+{
+  width:164px;
+  border-bottom:1px solid #DCDFE2;
+  cursor:default;
+  background:url(../images/noticeBanner.gif) repeat-x;
+}
+
+#groupNoticeBox .noticeText
+{
+  display:none;
+  width:164px;
+  height:74px;
+  overflow:auto;
+  overflow-x:hidden;
+}
+
+#groupNoticeBox .noticeText p
+{
+  word-break:break-all;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  color:#2B79E5;
+  line-height:18px;
+  margin:3px 6px;
+}
+
+#groupUserListBox
+{
+  width:164px;
+  cursor:default;
+  overflow:auto;
+  overflow-x:hidden;
+}
+
+#groupUserContainer
+{
+  height:100px;
+}
+
+#leftArea .leftListBox #userAddCon
+{
+  width:100%;
+  height:100%;
+  background-color:#EFFAFF;
+}
+
+#leftArea .leftListBox #userAdd
+{
+  font-weight:700;
+  font-size:1em;
+  color:#2778CD;
+  cursor:pointer;
+  width:110px;
+  zoom:1;
+  padding:5px 0 0 1px;
+}
+
+#leftArea .leftListBox .green
+{
+  margin-right:5px;
+  color:#33b12a;
+  background:url(../images/webim.gif) -62px -368px no-repeat;
+  _margin-right:3px;
+  width:16px;
+  height:16px;
+  float:left;
+}
+
+#searchContactsDgTitle
+{
+  margin:0 9px;
+}
+
+#searchContactsDgText
+{
+  width:243px;
+  margin:0 7px 8px;
+}
+
+#searchContactsDgErrorText
+{
+  color:red;
+  font-size:.9em;
+  margin:-11px 0 -6px 8px;
+}
+
+.mixTab .imtab .tabLeft,.mixTab .imtab .tabLeft .status,.mixTab .imtab .status,.mixTab .imtab .tabRight,.mixTab .imtab .closeBT,.moreBox .imtab .tabLeft,.moreBox .imtab .tabLeft .status,.moreBox .imtab .status,.moreBox .imtab .tabRight,.moreBox .imtab .closeBT,.mixTab .moreButton
+{
+  background-image:url(../images/webim.gif);
+  background-repeat:no-repeat;
+  font-size:1px;
+  line-height:1px;
+}
+
+.mixTab
+{
+  position:relative;
+  left:0;
+  top:0;
+  zoom:1;
+}
+
+.mixTab .imtab
+{
+  margin-right:1px;
+  float:left;
+  cursor:default;
+  position:relative;
+  left:0;
+  top:0;
+  width:88px;
+  zoom:1;
+}
+
+.mixTab .imtab div
+{
+  float:left;
+}
+
+.mixTab .imtab .tabLeft
+{
+  background-position:0 -29px;
+  width:17px;
+  height:22px;
+}
+
+.mixTab .imtab .tabLeft .status
+{
+  width:10px;
+  height:10px;
+  position:absolute;
+  left:5px;
+  top:7px;
+  background-position:0 -453px;
+}
+
+.mixTab .imtab .tabLeft .status.groupstatus
+{
+  width:15px;
+  height:15px;
+  position:absolute;
+  left:3px;
+  top:4px;
+  background-position:-74px -454px;
+}
+
+.mixTab .imtab .tabLeft .status.groupstatus.gblocked
+{
+  background-position:-100px -454px;
+}
+
+.mixTab .imtab .tabRight
+{
+  background-position:right -29px;
+  width:71px;
+  height:22px;
+  overflow:hidden;
+}
+
+.mixTab .imtab .tabRight label
+{
+  line-height:22px;
+  font-size:12px;
+  font-weight:400;
+  width:48px;
+  height:22px;
+  overflow:hidden;
+  white-space:nowrap;
+  display:inline-block;
+  margin-left:2px;
+  vertical-align:middle;
+  zoom:1;
+}
+
+.mixTab .imtab .closeBT
+{
+  position:absolute;
+  right:2px;
+  top:3px;
+  width:15px;
+  height:15px;
+  background-position:1000px 1000px;
+  cursor:pointer;
+  clear:both;
+}
+
+.mixTab .imtab.checked .tabLeft
+{
+  background-position:0 -56px;
+}
+
+.mixTab .imtab.checked .tabRight
+{
+  background-position:right -56px;
+}
+
+.mixTab .imtab.highlight .tabLeft
+{
+  background-position:0 -83px;
+}
+
+.mixTab .imtab.highlight .tabRight
+{
+  background-position:right -83px;
+}
+
+.mixTab .imtab.add .closeBT.over
+{
+  background-position:-70px -163px;
+}
+
+.mixTab .imtab.over .tabLeft
+{
+  background-position:0 -110px;
+}
+
+.mixTab .imtab.over .tabRight
+{
+  background-position:right -110px;
+}
+
+.mixTab .imtab.over .closeBT
+{
+  background-position:-1px -163px;
+}
+
+.mixTab .moreBox .imtab div
+{
+  float:left;
+  zoom:1;
+}
+
+.mixTab .moreButton
+{
+  background-position:0 -187px;
+  width:18px;
+  height:19px;
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  top:1px;
+}
+
+.mixTab .moreButton.over
+{
+  background-position:-28px -187px;
+}
+
+.mixTab .moreButton.down
+{
+  background-position:-56px -187px;
+}
+
+.mixTab .moreButton.msg
+{
+  background-position:0 -216px;
+}
+
+.mixTab .moreButton.msg.mover
+{
+  background-position:-28px -216px;
+}
+
+.mixTab .moreButton.msg.mdown
+{
+  background-position:-56px -216px;
+}
+
+.mixTab .groupMock
+{
+  width:20px;
+  height:3px;
+  font-size:1px;
+  line-height:1px;
+  display:inline-block;
+  cursor:default;
+  position:absolute;
+  right:0;
+  top:20px;
+  background-color:#F6FAFF;
+}
+
+.mixTab .moreBox
+{
+  position:absolute;
+  right:-3px;
+  top:20px;
+  z-index:10;
+  border:1px solid #B6C7D7;
+  background-color:#F6F9FE;
+  overflow-x:hidden;
+  zoom:1;
+  filter:progid:DXImageTransform.Microsoft.DropShadow(color=#66CCCCCC,offX=3,offY=3,positives=true);
+  box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -o-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -moz-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+  -webkit-box-shadow:3px 3px 0 rgba(169,169,169,0.3);
+}
+
+.mixTab .moreBox .imtab
+{
+  clear:both;
+  background-color:#F6F9FE;
+  border-top:1px solid #FCFCFE;
+  border-bottom:1px solid #D0DCE8;
+  margin-right:0;
+}
+
+.mixTab .moreBox .imtab.highlight
+{
+  background-color:#FFE085;
+  border-top:1px solid #FCFCFE;
+  border-bottom:1px solid #E8B10C;
+  margin-right:0;
+}
+
+.mixTab .moreBox .imtab.add .closeBT.over
+{
+  background-position:-70px -163px;
+  background-color:transparent;
+  border:0;
+}
+
+.mixTab .moreBox .imtab.over
+{
+  background-color:#D9ECFF;
+  border-top:1px solid #FCFCFE;
+  border-bottom:1px solid #BCDBF9;
+  margin-right:0;
+}
+
+.mixTab .moreBox .imtab.over .closeBT.over
+{
+  background-position:-119px -163px;
+  background-color:transparent;
+  border:0;
+}
+
+.imTip
+{
+  position:absolute;
+  width:107px;
+  height:47px;
+  z-index:99999;
+}
+
+.imTip *
+{
+  font-size:1px;
+  cursor:default;
+}
+
+.imTip .imTipBoard
+{
+  position:absolute;
+  left:4px;
+  top:4px;
+  z-index:1;
+  background-position:-400px -172px;
+  overflow:hidden;
+  width:99px;
+  height:39px;
+  padding:3px;
+}
+
+.imTip .imArrow
+{
+  position:absolute;
+  z-index:2;
+  font-size:1px;
+  line-height:1px;
+}
+
+.contacts .item .status,.contacts .item .icon,.contacts .item .menu,.contacts .power .superAdmin,.contacts .power .admin
+{
+  background:url(../images/webim.gif) no-repeat;
+}
+
+.contacts
+{
+  font-size:12px;
+  line-height:14px;
+  white-space:nowrap;
+  margin:0;
+  padding:0;
+}
+
+.contacts .item .status
+{
+  position:absolute;
+  left:5px;
+  top:7px;
+  display:inline-block;
+  font-size:1px;
+  height:12px;
+  line-height:1px;
+  width:12px;
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+.contacts .item .icon
+{
+  position:absolute;
+  left:18px;
+  top:5px;
+  display:inline-block;
+  font-size:1px;
+  height:13px;
+  width:16px;
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+.contacts .select
+{
+  background:#FFE;
+}
+
+.contacts .hover
+{
+  background:#EFFAFF;
+}
+
+.contacts .item
+{
+  height:24px;
+  cursor:pointer;
+  position:relative;
+  margin:0;
+  padding:0;
+}
+
+.contacts .item .menu
+{
+  position:absolute;
+  display:none;
+  top:5px;
+  right:2px;
+  height:12px;
+  width:12px;
+  background-position:-62px -486px;
+}
+
+.contacts .hover .menu
+{
+  display:inline-block;
+}
+
+.contacts .item .menu:hover
+{
+  background-position:-82px -486px;
+}
+
+.contacts .item .menu.down
+{
+  background-position:-102px -486px;
+}
+
+.contacts .item label
+{
+  cursor:pointer;
+  position:absolute;
+  display:inline-block;
+  left:20px;
+  top:5px;
+  height:12px;
+}
+
+.contacts .email label
+{
+  left:40px;
+  top:5px;
+}
+
+.contacts .item a
+{
+  text-decoration:none;
+  color:#000;
+}
+
+.contacts .item .off
+{
+  background-position:-313px -258px;
+}
+
+.contacts .item .on
+{
+  background-position:-325px -258px;
+}
+
+.contacts .item .off2
+{
+  background-position:-337px -258px;
+}
+
+.contacts .item .on2
+{
+  background-position:-349px -258px;
+}
+
+.contacts .item .none
+{
+  background:none;
+}
+
+.contacts .email .bind
+{
+  background-position:-34px -505px;
+}
+
+.contacts .email .nobind
+{
+  background-position:-34px -485px;
+}
+
+.contacts .power .status
+{
+  left:20px;
+  top:7px;
+}
+
+.contacts .power label
+{
+  left:35px;
+}
+
+.contacts .power .nopower
+{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  font-size:1px;
+  line-height:1px;
+  cursor:default;
+  position:absolute;
+  left:2px;
+  top:3px;
+}
+
+.contacts .power .superAdmin
+{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  font-size:1px;
+  line-height:1px;
+  cursor:default;
+  background-position:-396px -144px;
+  position:absolute;
+  left:2px;
+  top:3px;
+}
+
+.contacts .power .admin
+{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  font-size:1px;
+  line-height:1px;
+  cursor:default;
+  background-position:-416px -144px;
+  position:absolute;
+  left:2px;
+  top:3px;
+}
+
+.contacts .item .groupIcon
+{
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:16px;
+  height:16px;
+  font-size:1px;
+  line-height:1px;
+  background-position:-350px -145px;
+}
+
+.contacts .item .groupIcon.gblock
+{
+  background-position:-372px -145px;
+}
+
+.contacts .nodes
+{
+  margin-left:12px;
+}
+
+.contacts .item .doLoading
+{
+  background:url(../images/loading12x12.gif) no-repeat;
+}
+
+#headArea,#sendButtonBox,#headArea .setWebIM,#headArea .closeWebIM,#headArea .logo,#headArea .feedback,#headArea .hiHome,#headArea .setItemA.ichecked,#setLayer a.skinItem.checked,#tabArea, .messageTip .tipIcon, .messageTip .tipClose, .chatUserBlock .scrollButton,#contactAreaButton a,#toolBarArea .emoteButton,#toolBarArea .blockButton,#toolBarArea .recordButton,#toolBarArea .addButton,#sendMethodSelectLayer .checked,#leftArea .leftListType,#leftArea .leftListType div,.customButton,.layerCloseButton,.successIcon,.failureIcon,.alertIcon,.dialogConfirm,#systemMessageBox .addUserRequset .addUserRequsetIcon,#searchClear,#systemMessageBox .systemMessageBlock .systemIconArea .systemInfoIcon,.groupSelectBox .groupItem .arrowIcon,.fileAlert .fileAlertIcon,.loginBox .loginLeftBorder,.loginBox .loginRightBorder,.loginBox .loginButton,.pass-submit button,.loginBox .loginLogo,.loginBox .loginRB,.loginBox .loginContent input,.fileTipBox .fileTipBot .downIcon,#groupBarButton,#toolBarArea .picButtonMock span,.imTip .imTipBoard,.imTip .imArrow
+{
+  background-image:url(../images/webim.gif);
+  background-repeat:no-repeat;
+}
+
+#headArea .setItemA.ichecked,#headArea .setItemA:hover.ichecked
+{
+  background-position:-146px -286px;
+}
+
+#headArea .setItemA:hover,#sendMethodSelectLayer a:hover
+{
+  background-color:#DBF0FF;
+}
+
+#setLayer .setSkinText,#leftArea .leftListType #groupTab
+{
+  float:right;
+}
+
+#leftArea #listArea,#leftArea #groupListTab
+{
+  width:158px;
+  position:relative;
+  top:0;
+  left:0;
+  overflow:auto;
+  -moz-user-select:none;
+}
+
+.groupNoticeTip .noticeTitle,#groupNoticeBox .noticeTitle
+{
+  white-space:nowrap;
+  width:152px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  height:20px;
+  line-height:20px;
+  margin-left:6px;
+}
+
+.groupNoticeTip .noticeText p a, .messageBlock p a, .messageBlock .messageTitle
+{
+  color:#00F;
+}
+
+ pre,#systemMessageBox .addUserRequset .addUserRequsetContent p,#systemMessageBox .systemMessageBlock p
+{
+  margin:0;
+}
+
+ .chatUserBlock .scrollButton.needScroll,#toolBarArea .emoteLayer .emoContent.default
+{
+  background-position:0 0;
+}
+
+ .messageBlock p, .historyMessageBlock p
+{
+  line-height:18px;
+  white-space:pre-wrap;
+  word-break:break-all;
+  word-wrap:break-word;
+  margin:0;
+}
+
+ .messageBlock .messageText, .messageBlock .selfMessageText
+{
+  color:#000;
+  margin-left:10px;
+  word-break:break-all;
+  white-space:pre-wrap;
+  zoom:1;
+  font:400 12px/16px STHeiti,宋体,Arial;
+}
+
+ .messageBlock .reply span, .historyMessageBlock .reply span,#systemMessageBox .addUserRequset .addUserRequsetContent .title
+{
+  font-weight:700;
+}
+
+ .messageTip .tipClose:hover,.mixTab .imtab.over .closeBT.over
+{
+  background-position:-23px -163px;
+}
+
+#systemMessageBox .addUserRequset,#systemMessageBox .systemMessageBlock
+{
+  background-color:#FFF;
+  border:1px solid #D5E3FE;
+  overflow:hidden;
+  zoom:1;
+  margin:2px;
+  padding:2px;
+}
+
+#systemMessageBox .addUserRequset.readed,#systemMessageBox .systemMessageBlock.readed
+{
+  background-color:#F8F8F8;
+  border:1px solid #D8D8D7;
+}
+
+#systemMessageBox .addUserRequset.over,#systemMessageBox .systemMessageBlock.over
+{
+  background-color:#FFFCE6;
+  border:1px solid #F5D72E;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetContent a,#systemMessageBox .systemMessageBlock a
+{
+  color:#0435AC;
+  text-decoration:underline;
+  margin-right:5px;
+}
+
+#systemMessageBox .addUserRequset .addUserRequsetContent label,#systemMessageBox .systemMessageBlock label
+{
+  margin-left:5px;
+  font-weight:200;
+  color:#999;
+}
+
+.layerCloseButton.buttonhover,.mixTab .imtab.checked .closeBT.over
+{
+  background-position:-119px -163px;
+}
+
+#searchArea .hidden,.pass_login_err,#pass_login_p_generalerror_0,.pass-form fieldset legend,.pass-submit button span,.contacts.hidden,.contacts .hidden
+{
+  display:none;
+}
+
+.pass_login_p_username label,.pass_login_p_password label,.pass_login_p_verifycode label,.pass-username label,.pass-password label,.pass-verifycode label
+{
+  width:50px;
+  display:inline-block;
+  text-align:right;
+  _height:22px;
+  _position:relative;
+  _top:2px;
+}
+
+.loginBox .loginContent #pass_login_rem_0,.loginBox .loginContent .pass-mem_pass input
+{
+  position:relative;
+  top:3px;
+  background-image:url();
+  width:auto;
+  height:auto;
+}
+
+.pass_login_p_img_verifycode img,.pass-verifycode img
+{
+  position:relative;
+  top:3px;
+  margin-left:50px;
+}
+
+.pass-username input,.pass-password input,.pass-verifycode input
+{
+  font:400 12px/16px STHeiti,宋体,Arial;
+}
+
+.fileTipBox .fileTipTop a,.fileTipBox .fileTipBot .downText.progress a
+{
+  margin-left:5px;
+  color:#00F;
+  outline:none;
+}
+
+.mixTab .imtab .tabLeft .status.system,.contacts .item .system
+{
+  background-position:1px -397px;
+}
+
+.mixTab .imtab .tabLeft .status.online,.contacts .item .online
+{
+  background-position:0 -411px;
+}
+
+.mixTab .imtab .tabLeft .status.busy,.contacts .item .busy
+{
+  background-position:0 -439px;
+}
+
+.mixTab .imtab .tabLeft .status.away,.contacts .item .away
+{
+  background-position:0 -425px;
+}
+
+.mixTab .imtab .tabLeft .status.offline,.contacts .item .offline
+{
+  background-position:0 -453px;
+}
+
+.mixTab .imtab .tabLeft .status.block,.contacts .item .block
+{
+  background-position:0 -467px;
+}
+
+.mixTab .imtab .tabLeft .status.blockoffline,.contacts .item .blockoffline
+{
+  background-position:-94px -318px;
+}
+
+.mixTab .imtab .tabLeft .status.unfriend,.contacts .item .unfriend
+{
+  background-position:0 -482px;
+}
+
+.mixTab .imtab .tabLeft .status.unfriendoffline,.contacts .item .unfriendoffline
+{
+  background-position:0 -496px;
+}
+
+.mixTab .imtab .tabLeft .status.webonline,.contacts .item .webonline
+{
+  background-position:0 -510px;
+}
+
+.mixTab .imtab.checked .closeBT,.mixTab .moreBox .imtab.over .closeBT
+{
+  background-position:-97px -163px;
+}
+
+.mixTab .imtab.add .closeBT,.mixTab .moreBox .imtab.add .closeBT
+{
+  background-position:-47px -163px;
+}
+
+.mixTab .moreBox .imtab .tabLeft,.mixTab .moreBox .imtab .tabRight,.mixTab .moreBox .imtab.highlight .tabLeft,.mixTab .moreBox .imtab.highlight .tabRight,.mixTab .moreBox .imtab.over .tabLeft,.mixTab .moreBox .imtab.over .tabRight
+{
+  background-position:1000px 1000px;
+}
+
+.imTip .imTipBoard .title,.imTip .imTipBoard .text
+{
+  line-height:16px;
+  font-size:12px;
+  font-weight:400;
+  color:#855709;
+  width:93px;
+  height:16px;
+  overflow:hidden;
+}

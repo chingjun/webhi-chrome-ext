@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>history viewer</title>
+    <link href="bootstrap.css" rel="stylesheet" media="screen">
+    <link href="webim.css" rel="stylesheet" media="screen">
+    <script src="jquery-1.8.3.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="idb.js"></script>
+</head>
+<body style="width: 1080px; margin: 0 auto; padding-top: 60px;">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">Webhi history</a>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well sidebar-nav" style="padding: 7px 0">
+            <ul class="nav nav-list" id="list-ul">
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span10">
+          <div class="tabbable">
+            <ul class="nav nav-tabs" id="tab-pane">
+            </ul>
+            <div class="tab-content" id="tab-contents">
+            </div>
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+      <script type="text/javascript" src="history_viewer.js"></script>
+
+      <hr>
+
+      <footer>
+        <p>&copy; WebHi enhancer</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+</body>
+</html>
