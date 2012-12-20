@@ -21,7 +21,8 @@
     "web_accessible_resources": [
         "webhi-notification.js",
         "util.js",
-        "smiley.js"
+        "smiley.js",
+        "modify_text_size_adjust.js"
     ],
     "background": {
         "scripts": ["idb.js", "background.js"]

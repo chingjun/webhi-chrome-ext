@@ -9,6 +9,7 @@ function inject(name) {
 inject("smiley.js");
 inject("util.js");
 inject("webhi-notification.js");
+inject("modify_text_size_adjust.js");
 
 function ev_callback(data, cb) {
     chrome.extension.sendMessage(data, function(response) {
